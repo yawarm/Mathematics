@@ -1,1 +1,8 @@
+Primarily:
+You are responsible for all losses and wins if you use this code to make purchases in the stock market and / or the crypto market. This code is made as a hobby project. Use at your own risk.
 
+I recommend running the code through a friend.
+Before you can run the code, you must download the packages in libraries.txt
+You may need TA_Lib-0.4.20-cp38-cp38-win32.whl or TA_Lib-0.4.20-cp38-cp38-win_amd64.whl, depending on your machine. For more information on socket and binance api, check github.txt.
+
+For information about the mathematics and market analysis my trading technique is based on, get in touch :)
