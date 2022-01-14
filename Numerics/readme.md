@@ -6,3 +6,7 @@ Here you can find:
  - The trapezoidal rule
  - The midpoint method
  - Simpson's method
+
+---------
+
+More numerics on the way :) - Check TMA4320 - Introduction to Scientific Computation.
