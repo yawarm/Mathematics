@@ -11,7 +11,7 @@ def Newton(guess, maxIT, tol, min_div = 1e-20):
         fprime = f_prime(guess)
         if abs(fprime) < min_div:
             print("Denominator too small: root has multiplicity > 1")
-            return False
+            return (0,-1)
         new_guess = guess - (f(guess)/fprime)
         approxError = abs(new_guess-guess)
         guess = new_guess
@@ -21,5 +21,6 @@ def Newton(guess, maxIT, tol, min_div = 1e-20):
             return new_guess, i
     return new_guess, i
 
-result = Newton(100, 500, 1e-5)
-print(result)
+result = Newton(0, 20, 1e-5)
+print(f"The root is found to be: {result[0]}")
+print(f"Iterations: {result[1]}")
